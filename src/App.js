@@ -6,11 +6,22 @@ class App extends Component {
     return (
       <div className="App">
         <div className="App-header">
-          <h2>NITHIN PETER</h2>
+          <h3>NITHIN PETER</h3>
         </div>
-        <p className="App-intro">
-          Front-end Developer
-        </p>
+        <div className="App-intro">
+          Front-end engineer. I work somewhere between the designers and the database!
+        </div>
+        <div className="Connect-container">
+          <div className="Connect-content">
+            <h5>@nithinpeter</h5>
+            <a href="https://twitter.com/nithinpeter" target="_blank">
+              <span className="fa fa-twitter"></span>
+            </a>
+            <a href="https://github.com/nithinpeter" target="_blank">
+              <span className="fa fa-github"></span>
+            </a>
+          </div>
+        </div>
       </div>
     );
   }

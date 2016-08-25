@@ -1,15 +1,37 @@
 .App {
-  text-align: center;
+  display: flex;
+  flex-direction: column;
 }
 
 .App-header {
-  padding-left: 20px;
-  text-align: left;
+  padding-left: 10px;
+  flex-basis: 7vh;
 }
 
 .App-intro {
-  padding-left: 20px;
-  font-size: large;
-  text-align: left;
+  padding-left: 10px;
+  font-family: 'Rokkitt', serif;
+  flex-basis: 3vh;
 }
 
+.Connect-container {
+  flex-basis: 75vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Connect-container .fa {
+  font-size: 30px;
+  color: #bcbcbc;
+  margin: 5px;
+}
+
+.Connect-container .fa:hover {
+  color: #fff;
+}
+
+.Connect-container .Connect-content {
+  text-align: center;
+}
+ 
